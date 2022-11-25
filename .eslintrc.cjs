@@ -2,7 +2,7 @@
  * @Author: wlj
  * @Date: 2022-10-20 15:03:10
  * @LastEditors: wlj
- * @LastEditTime: 2022-10-20 15:40:23
+ * @LastEditTime: 2022-11-25 14:35:04
  * @Description:
  */
 module.exports = {
@@ -30,6 +30,7 @@ module.exports = {
   },
   rules: {
     'react/jsx-uses-react': 'off',
-    'react/react-in-jsx-scope': 'off'
+    'react/react-in-jsx-scope': 'off',
+    'react/no-unknown-property': 'off'
   }
 };
